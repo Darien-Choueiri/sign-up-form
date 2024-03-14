@@ -64,11 +64,9 @@ input:invalid {
     border-color: rgb(203, 11, 11);
 }
 
-
-input:invalid 
 .subheading {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .input>label {
@@ -137,4 +135,16 @@ a {
 
 .title {
     color: white;
+}
+
+.credits {
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
