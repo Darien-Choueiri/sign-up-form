@@ -4,7 +4,6 @@ body {
     flex-direction: row;
     font-family: system-ui, sans-serif;
     font-weight: normal;
-  
     background-color: #F9F9F9;
 }
 
@@ -117,20 +116,25 @@ a {
 .images{
     display: flex;
     position: relative;
+    
 }
 
 .banner {
-    background-color: black;
-    opacity: 0.33;
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    height: 120px;
+    height: 170px;
     width: 100%;
     top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .icon {
     height: 100px;
-    position:absolute;
-    top: 230px;
-    left: 45px;
+}
+
+.title {
+    color: white;
 }
